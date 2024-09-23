@@ -12,15 +12,18 @@ h2 {
 
 /* Testimonial Section Styles */
 .testimonial {
-    background-color: #f4f4f4; /* Light grey background */
+    background-color: #f4f4f4; 
     padding: 30px;
     border-radius: 10px;
     transition: background 0.4s ease;
+    display: flex;
+    align-items: center; 
 }
 
 .testimonial img {
     width: 80px;
     height: 80px;
+    object-fit: cover;
 }
 
 .testimonial-content {
@@ -37,7 +40,7 @@ h2 {
     font-size: 14px;
 }
 
-/* Hover effect for testimonials */
+
 .testimonial:hover {
     background: linear-gradient(45deg, #0463CA, #B0D6F5); /* Gradient background on hover */
     color: white;
@@ -49,7 +52,12 @@ h2 {
     color: white;
 }
 
-/* Footer Logo Section */
+.img-wrapper {
+    width: 80px;
+    height: 80px;
+    margin-right: 15px;
+}
+
 footer {
     background-color: #333;
     color: white;
@@ -71,7 +79,7 @@ footer .col-2 {
     padding: 10px 0;
 }
 
-/* Set equal spacing between testimonial containers */
+
 .container .row.g-4 {
-    gap: 20px; /* Set horizontal and vertical spacing */
+    gap: 20px; 
 }
